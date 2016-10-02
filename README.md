@@ -1,12 +1,6 @@
-## aframe-passthrough-component
+## aframe-passthrough
 
-A Passthrough component for [A-Frame](https://aframe.io).
-
-### API
-
-| Property | Description | Default Value |
-| -------- | ----------- | ------------- |
-|          |             |               |
+Shows webcam or phone camera video feed inside an [A-Frame](https://aframe.io) Web-VR environment.
 
 ### Installation
 
@@ -36,14 +30,14 @@ Install and use by directly including the [browser files](dist):
 Install via npm:
 
 ```bash
-npm install aframe-passthrough-component
+npm install aframe-passthrough
 ```
 
 Then register and use.
 
 ```js
 require('aframe');
-require('aframe-passthrough-component');
+require('aframe-passthrough');
 ```
 
 ### Notes   
