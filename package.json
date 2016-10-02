@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/flysonic10/aframe-passthrough#readme",
   "devDependencies": {
-    "aframe": "^0.2.0",
+    "aframe": "^0.3.1",
     "browserify": "^13.0.0",
     "browserify-css": "^0.9.1",
     "budo": "^8.2.2",

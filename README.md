@@ -10,6 +10,8 @@ A Passthrough component for [A-Frame](https://aframe.io).
 
 ### Installation
 
+Requires Aframe >= 0.3.0
+
 #### Browser
 
 Install and use by directly including the [browser files](dist):
@@ -23,7 +25,8 @@ Install and use by directly including the [browser files](dist):
 
 <body>
   <a-scene>
-    <a-entity passthrough="exampleProp: exampleVal"></a-entity>
+    <a-assets></a-assets>
+    <a-passthrough width="16" height="9"></a-passthrough>
   </a-scene>
 </body>
 ```
@@ -42,3 +45,12 @@ Then register and use.
 require('aframe');
 require('aframe-passthrough-component');
 ```
+
+### Notes   
+The passthrough component will show the camera feed from a webcam when viewed on a desktop, and will attempt to use the back-facing camera when viewed on a mobile device.
+
+### Roadmap  
+Cool additions would be:
+
+- Camera selector: to select between front and back facing cameras on mobile
+- Mirror attribute: to flip the view to mirrored
