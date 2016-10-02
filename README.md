@@ -2,6 +2,8 @@
 
 Shows webcam or phone camera video feed inside an [A-Frame](https://aframe.io) Web-VR environment.
 
+Demo: [https://flysonic10.github.io/aframe-passthrough/](https://flysonic10.github.io/aframe-passthrough/)
+
 ### Installation
 
 Requires Aframe >= 0.3.0
