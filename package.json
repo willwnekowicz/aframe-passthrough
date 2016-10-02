@@ -1,5 +1,5 @@
 {
-  "name": "aframe-passthrough-component",
+  "name": "aframe-passthrough",
   "version": "1.0.0",
   "description": "Passthrough component for A-Frame.",
   "main": "index.js",

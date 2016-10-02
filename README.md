@@ -30,14 +30,14 @@ Install and use by directly including the [browser files](dist):
 Install via npm:
 
 ```bash
-npm install aframe-passthrough
+npm install aframe-passthrough-component
 ```
 
 Then register and use.
 
 ```js
 require('aframe');
-require('aframe-passthrough');
+require('aframe-passthrough-component');
 ```
 
 ### Notes   
