@@ -130,7 +130,7 @@
 	      setupCanvas(videoSourceId);
 	    }
 
-	    if(MediaStreamTrack) {
+	    if(MediaStreamTrack && MediaStreamTrack.getSources) {
 	      MediaStreamTrack.getSources(withBackCamera);
 	    } else {
 	      setupCanvas(null);
